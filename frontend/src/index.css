@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen bg-night-950 text-slate-100;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-sky-300 via-violet-400 to-fuchsia-400 bg-clip-text text-transparent;
+}
+
+.glass-nav {
+  @apply border-b border-white/10 bg-night-950/70 backdrop-blur-md;
+}
+
+.input-field {
+  @apply w-full rounded-xl border border-white/15 bg-night-900/80 px-4 py-3 text-sm text-white placeholder:text-slate-500 outline-none transition focus:border-violet-500/60 focus:ring-1 focus:ring-violet-500/40;
+}
+
+/* Landing: subtle grid (keeps footer transition clean) */
+.landing-page-bg {
+  background-color: #030712;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.028) 1px, transparent 1px);
+  background-size: 72px 72px;
+}

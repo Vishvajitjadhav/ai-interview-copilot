@@ -1,0 +1,50 @@
+{
+  "companyOverview": "Acme Corp builds developer tools used by thousands of teams. Interviews emphasize practical system design and collaboration with product.",
+  "hiringPsychology": "They reward candidates who show curiosity about the product, admit trade-offs clearly, and connect past work to user impact.",
+  "roadmap": [
+    {
+      "title": "Company & role alignment",
+      "timeframe": "Day 1",
+      "tasks": [
+        "Read last 3 engineering blog posts and note themes",
+        "Rewrite your intro to map 3 resume bullets to the job description"
+      ],
+      "focus": "Speak their language"
+    },
+    {
+      "title": "Technical depth",
+      "timeframe": "Days 2-4",
+      "tasks": [
+        "Solve 6 medium problems tagged for your stack",
+        "Whiteboard one feature from your resume with API + data model"
+      ],
+      "focus": "Role-relevant patterns, not random DSA"
+    },
+    {
+      "title": "Interview simulation",
+      "timeframe": "Days 5-7",
+      "tasks": [
+        "Full mock: coding + system design + behavioral",
+        "Prepare 5 STAR stories tied to their values"
+      ],
+      "focus": "Pacing and crisp communication"
+    }
+  ],
+  "expectedQuestions": {
+    "technical": [
+      "How would you design rate limiting for our public API?",
+      "Walk through how you optimized a slow query or endpoint.",
+      "Explain CAP as it applies to a service you built."
+    ],
+    "behavioral": [
+      "Tell me about a time you disagreed with a product decision.",
+      "How do you prioritize when the roadmap shifts mid-sprint?",
+      "What would you improve in our product if you joined Monday?"
+    ]
+  },
+  "focusAreas": {
+    "strengths": ["End-to-end ownership examples", "Clear debugging narratives"],
+    "weaknesses": ["Quantifying scale (QPS, latency numbers)", "Explaining trade-offs in under 2 minutes"],
+    "priorityTopics": ["Their core product surface", "Observability and on-call", "Cross-team communication"]
+  }
+}
