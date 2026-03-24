@@ -2,6 +2,16 @@
 
 Full-stack interview prep app: **Spring Boot** (JWT + JPA), **React** (Vite + Tailwind), **PostgreSQL**, and **Groq** for AI-generated roadmaps tailored to your resume, company, and role.
 
+## ▶️ Demo Video
+
+🎥 Short demo video (60–70 seconds) showing:
+- Sign up
+- How to generate preparation Plan
+- How I build
+
+**https://drive.google.com/file/d/11gO18mUmLRy-MPVTTWdJ_ef22SEtP7Ts/view?usp=drive_link**  
+
+---
 ## Repository layout
 
 | Path | Description |
