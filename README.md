@@ -10,7 +10,13 @@ Full-stack interview prep app: **Spring Boot** (JWT + JPA), **React** (Vite + Ta
 - How I build
 
 **https://drive.google.com/file/d/11gO18mUmLRy-MPVTTWdJ_ef22SEtP7Ts/view?usp=drive_link**  
+---
+## ▶️ Live Demo
 
+🔗 **https://ai-interview-copilot-sooty.vercel.app**
+
+> Note: The backend is hosted on a server with cold-start behavior, so the first request may take a few seconds to respond. Subsequent requests will be faster.
+  
 ---
 ## Repository layout
 
